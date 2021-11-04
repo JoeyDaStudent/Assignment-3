@@ -9,10 +9,14 @@ public class CommandInvoker : MonoBehaviour
     static List<ICommand> commandHistory;
     static int counter;
 
+    private bool dirty_;
+
     private void Awake() 
     {
         commandBuffer = new Queue<ICommand>();
         commandHistory = new List<ICommand>();
+
+        dirty_ = false;
     }
 
     public static void AddCommand(ICommand command)
@@ -64,5 +68,26 @@ public class CommandInvoker : MonoBehaviour
                 }
             }
         }
+
+        if (dirty_)
+        {
+            List<string> lines = new List<string>();
+
+            foreach (ICommand c in commandHistory)
+            {
+                lines.Add(c.ToString());
+            }
+
+            System.IO.File.WriteAllLines(Application.dataPath + "/logfile.txt", lines);
+
+            dirty_ = false;
+        }
+
+        if (Input.GetKeyDown(KeyCode.L))
+        {
+            dirty_ = true;
+        }
+
     }
+
 }

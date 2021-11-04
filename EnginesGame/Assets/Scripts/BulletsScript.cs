@@ -17,7 +17,7 @@ public class BulletsScript :MonoBehaviour
         bullets[bullNumber].transform.position = Vector3.Normalize(dir) * 2.0f + pos + new Vector3(0.0f, 0.5f, 0.0f);
         bullNumber++;
         if (bullNumber > 9)
-        {
+        { 
             bullNumber = 0;
         }
     }
