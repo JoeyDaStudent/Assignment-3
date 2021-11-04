@@ -18,17 +18,11 @@ Our game is a simple arcade shooter where your goal is to survive as long as pos
 
 ![Pic4](https://user-images.githubusercontent.com/56273398/138728743-c8f494a6-0f7b-4475-ae35-52d6cc58b95d.PNG)
 
+YouTube link
 
-Youtube link
 
-https://www.youtube.com/watch?v=71NtQh8DUKo
-
-Sam Canonaco - 100742837
-
-Fred Lai - 100748388
 
 Joseph Carrillo - 100746949
-
 
 The UML was created with UMLet
 
