@@ -20,7 +20,7 @@ Our game is a simple arcade shooter where your goal is to survive as long as pos
 
 YouTube link
 
-
+https://youtu.be/Nq5VlUUxvio
 
 Joseph Carrillo - 100746949
 
@@ -36,3 +36,5 @@ https://stackoverflow.com/questions/44464552/how-to-properly-marshal-strings-fro
 https://docs.unity3d.com/ScriptReference/Time-deltaTime.html
 
 https://answers.unity.com/questions/1331151/c-need-help-making-an-enemy-spawn-timer.html
+
+https://drive.google.com/file/d/1ZKJ53wgp2RlJpSh4id-wgVDvVACj3fSF/view
